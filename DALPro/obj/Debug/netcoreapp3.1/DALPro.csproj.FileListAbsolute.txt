@@ -1,0 +1,13 @@
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\bin\Debug\netcoreapp3.1\DALPro.deps.json
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\bin\Debug\netcoreapp3.1\DALPro.runtimeconfig.json
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\bin\Debug\netcoreapp3.1\DALPro.runtimeconfig.dev.json
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\bin\Debug\netcoreapp3.1\DALPro.dll
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\bin\Debug\netcoreapp3.1\DALPro.pdb
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.csproj.AssemblyReference.cache
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.GeneratedMSBuildEditorConfig.editorconfig
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.AssemblyInfoInputs.cache
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.AssemblyInfo.cs
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.csproj.CoreCompileInputs.cache
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.dll
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.pdb
+D:\capgemini\training\technical\ASP-MVC-Db\MVCWithDb\DALPro\obj\Debug\netcoreapp3.1\DALPro.genruntimeconfig.cache

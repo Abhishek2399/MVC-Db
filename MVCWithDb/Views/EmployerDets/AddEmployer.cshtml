@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model DALPro.Models.Employer
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add Employer</title>
+
+</head>
+<body>
+    <form action="AddEmployer" method="post">
+        
+        <table>
+            <tr>
+                <td> Enter Employer Name</td>
+                <td><input name="EmployerName" id="Text1" type="text" /></td>
+            </tr>
+            <tr>
+                <td> Enter Email</td>
+                <td><input name="Email" id="Text1" type="email" /></td>
+            </tr>
+            <tr>
+                <td> Enter Password</td>
+                <td><input name="EmployerPwd" id="Text1" type="password" /></td>
+            </tr>
+            <tr>
+                <td> Enter Information </td>
+                <td><input name="EmployerInfo" id="Text1" type="password" /></td>
+            </tr>
+            <tr>
+                <td><input id="Submit1" type="submit" value="Submit" /></td>
+                <td<input id="Reset1" type="reset" value="Cancel" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+

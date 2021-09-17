@@ -1,0 +1,72 @@
+﻿@model IEnumerable<DALPro.Models.Employer>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowAllEmployers</title>
+</head>
+<body>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployerPwd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployerName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployerInfo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployerClients)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmployerPwd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmployerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmployerInfo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmployerClients)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.EmployerId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.EmployerId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.EmployerId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/EmployerDets/ShowEmployerByID"> Show By ID</a>
+    <a href="/EmployerDets/AddEmployer"> Add Employer</a>
+    <a href="/EmployerDets/DeleteEmployer"> Delete Employer</a>
+
+</body>
+</html>

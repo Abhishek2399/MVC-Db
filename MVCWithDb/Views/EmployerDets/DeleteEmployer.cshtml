@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete Employer</title>
+    <h2>@TempData["err"]</h2>
+</head>
+<body>
+    <form action="DeleteEmployer" , method="post">
+
+        <table style="width:100%;">
+            <tr>
+                <td> Enter ID : </td>
+                <td><input name="eid" id="Text1" type="text" required /></td>
+            </tr>
+            <tr>
+                <td><input id="Submit1" type="submit" value="Submit" /> </td>
+                <td<input id="Reset1" type="reset" value="Cancel" /> </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
